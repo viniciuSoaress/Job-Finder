@@ -12,8 +12,8 @@ export function Hero() {
         <button className="text-white rounded-full bg-indigo-500 w-40 p-3">
           Find Jobs Now
         </button>
-        <div className="w-full h-[calc(80vh-60px)] z-10 absolute top-[56px] bg-indigo-900/20 left-0 ring-0" />
       </div>
+        <div className="w-full h-[calc(80vh-60px)] absolute top-[56px] bg-indigo-900/20 left-0 ring-0" />
     </div>
   )
 }

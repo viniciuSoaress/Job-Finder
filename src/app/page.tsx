@@ -1,6 +1,7 @@
 
 import { Hero } from "./components/Hero";
 import { Services } from "./components/Servises";
+import { WelcomeText } from "./components/WelcomeText";
 
 
 export default function Home() {
@@ -9,6 +10,10 @@ export default function Home() {
 
       <Hero />
       <Services />
+
+      <div className="w-full mt-12 mb-16">
+        <WelcomeText />
+      </div>
     </main>
   );
 }
