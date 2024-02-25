@@ -8,6 +8,7 @@ import { WelcomeText } from "./components/WelcomeText";
 import { jobs } from "./data/jobs";
 import { SeachBar } from "./components/SeachBar";
 import { ListedJobs } from "./components/ListedJobs";
+import { PopularSeachs } from "./components/PopularSeachs";
 
 
 export default function Home() {
@@ -27,7 +28,8 @@ export default function Home() {
   }
 
   function handleSeach(query: string) {
-
+    const filtered = jobs.filter(job => job.title.toLocaleLowerCase().includes(query.toLocaleLowerCase()))
+    setFilteredJobs(filtered)
   }
 
   return (
@@ -45,6 +47,7 @@ export default function Home() {
           />
           <div className="w-full">
             <SeachBar onSeach={handleSeach} />
+            <PopularSeachs onSeach={handleSeach} />
             <ListedJobs
               jobs={filteredJobs}
               savedJobs={savedJobs}
@@ -53,6 +56,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+
     </main>
   );
 }
