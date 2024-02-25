@@ -7,7 +7,7 @@ export const jobs = [
 	{
 		id: 1,
 		title: "Senior React Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo1,
@@ -22,7 +22,7 @@ export const jobs = [
 	{
 		id: 2,
 		title: "Junior React Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo2,
@@ -37,7 +37,7 @@ export const jobs = [
 	{
 		id: 3,
 		title: "Mid-level React Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo3,
@@ -52,7 +52,7 @@ export const jobs = [
 	{
 		id: 4,
 		title: "Senior React Native Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo1,
@@ -67,7 +67,7 @@ export const jobs = [
 	{
 		id: 5,
 		title: "Junior Angular Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo2,
@@ -82,7 +82,7 @@ export const jobs = [
 	{
 		id: 6,
 		title: "Mid-level .NET Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo3,
@@ -97,7 +97,7 @@ export const jobs = [
 	{
 		id: 7,
 		title: "Senior Frontend Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo1,
@@ -112,7 +112,7 @@ export const jobs = [
 	{
 		id: 8,
 		title: "Junior Backend Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo2,
@@ -127,7 +127,7 @@ export const jobs = [
 	{
 		id: 9,
 		title: "Mid-level Vue-JS Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo3,
@@ -142,7 +142,7 @@ export const jobs = [
 	{
 		id: 10,
 		title: "Senior Laravel Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo1,
@@ -157,7 +157,7 @@ export const jobs = [
 	{
 		id: 11,
 		title: "Senior React Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo1,
@@ -172,7 +172,7 @@ export const jobs = [
 	{
 		id: 12,
 		title: "Junior React Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo2,
@@ -187,7 +187,7 @@ export const jobs = [
 	{
 		id: 13,
 		title: "Mid-level React Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo3,
@@ -202,7 +202,7 @@ export const jobs = [
 	{
 		id: 14,
 		title: "Senior React Native Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo1,
@@ -217,7 +217,7 @@ export const jobs = [
 	{
 		id: 15,
 		title: "Junior Angular Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo2,
@@ -232,7 +232,7 @@ export const jobs = [
 	{
 		id: 16,
 		title: "Mid-level .NET Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo3,
@@ -247,7 +247,7 @@ export const jobs = [
 	{
 		id: 17,
 		title: "Senior Frontend Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo1,
@@ -262,7 +262,7 @@ export const jobs = [
 	{
 		id: 18,
 		title: "Junior Backend Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo2,
@@ -277,7 +277,7 @@ export const jobs = [
 	{
 		id: 19,
 		title: "Mid-level Vue-JS Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo3,
@@ -292,7 +292,7 @@ export const jobs = [
 	{
 		id: 20,
 		title: "Senior Laravel Developer",
-		company: "Dayan Tech",
+		company: "Vinicius Tech",
 		location: "Vancouver,BC",
 		salary: "120k - 140k",
 		logo: logo1,
