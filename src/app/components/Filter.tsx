@@ -4,6 +4,8 @@ import {  XCircleIcon } from 'lucide-react'
 import { ChangeEvent, useCallback, useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { jobs } from '../data/jobs';
+import { BuildingIcon } from "lucide-react";
+
 
 type FiltersProps = {
   onFilterChange: (filters: { contractStatus: string[], workStatus: string[] }) => void,
@@ -84,7 +86,7 @@ export function Filters({ onFilterChange, savedJob }: FiltersProps) {
 
             <JobInput array={work} handleChange={handleLocationStatusHandle} title='Remote' />
 
-            <JobInput array={work} handleChange={handleLocationStatusHandle} title='Hibrid' />
+            <JobInput array={work} handleChange={handleLocationStatusHandle} title='Hybrid' />
           </div>
         </div>
 
@@ -109,7 +111,7 @@ export function Filters({ onFilterChange, savedJob }: FiltersProps) {
                       <span>{j.title}</span>
                       <div className="flex items-center gap-2">
 
-                        icon!!
+                        <BuildingIcon className='text-[#555]' size={18}/>
 
                         <span className='text-sm text-gray-600'>{j.company}</span>
 
