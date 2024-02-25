@@ -7,6 +7,7 @@ import { Services } from "./components/Servises";
 import { WelcomeText } from "./components/WelcomeText";
 import { jobs } from "./data/jobs";
 import { SeachBar } from "./components/SeachBar";
+import { ListedJobs } from "./components/ListedJobs";
 
 
 export default function Home() {
@@ -25,7 +26,7 @@ export default function Home() {
     setFilteredJobs(filtered)
   }
 
-  function handleSeach(query: string){
+  function handleSeach(query: string) {
 
   }
 
@@ -43,7 +44,12 @@ export default function Home() {
             savedJob={savedJobs}
           />
           <div className="w-full">
-            <SeachBar onSeach={handleSeach}/>
+            <SeachBar onSeach={handleSeach} />
+            <ListedJobs
+              jobs={filteredJobs}
+              savedJobs={savedJobs}
+              setSavendJobs={setSavedJobs}
+            />
           </div>
         </div>
       </div>
