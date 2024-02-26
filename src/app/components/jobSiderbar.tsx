@@ -1,5 +1,6 @@
 import { StaticImageData } from "next/image";
 import { BanknoteIcon, BuildingIcon, MapPinIcon, NewspaperIcon } from "lucide-react";
+import { SidebarIcom } from "./SibebarIcom";
 
 type JobSidebarprops = {
   job: {
@@ -46,18 +47,3 @@ export function JobSidebar({ job }: JobSidebarprops) {
   )
 }
 
-type IcomProps = {
-  icom: React.ReactNode,
-  title: string | undefined
-}
-
-function SidebarIcom({icom, title}:IcomProps){
-
-  return(
-    <div className="flex items-center gap-2">
-          {icom}
-
-          <span className="text-sm font-medium text-gray-600">{title}</span>
-        </div>
-  )
-}
